@@ -13,11 +13,11 @@
 >- There should not be any multi-valued attribute
 >
 > Table before 1st normal form
->![!](/assets/img/F1Norm.png)
+>![!](/assets/img/F1Norm.PNG)
 >So, we will split the non-atomic attribute, retailoutletlocation into three different attributes- street, city and zipcode all of them being atomic, the resulting relation will be in First Normal Form.
 >
 > Table after 1st normal form
->![!](/assets/img/Normalizationretailoutlet1.jpg)
+>![!](/assets/img/Normalizationretailoutlet1.JPG)
 >___
 > ### __Second Normal Form: 2 NF__
 > A relation R is said to be in 2 NF (Second Normal) form if and only if:
@@ -30,8 +30,8 @@
 > Since the description is dependent only on itemcode, we can create a separate table item with itemcode and description as its attributes, so that the partial dependencies are eliminated. Similarly, retail outlet details like retailoutletid, street, city and zipcode attributes must be in a separate table retailoutlet. Also, the attributes qtyavailable, retailunitprice, itemclass are dependent on both itemcode and retailoutletid. Hence, we will have another table retailstockdetails with those attributes.
 >
 > After removing the partial dependencies, we have three tables item, retailoutlet and retailstockdetails, each of them in 2 NF.
->![!](/assets/img/normalforms1.jpg)
->![!](/assets/img/normalforms2.jpg)
+>![!](/assets/img/normalforms1.JPG)
+>![!](/assets/img/normalforms2.JPG)
 >___
 > ### __Third Normal Form: 3 NF__
 > A relation R is said to be in 3 NF (Third Normal Form) if and only if:
@@ -51,13 +51,13 @@
 > Here we split retailstockdetails in three.
 >
 >After
->![!](/assets/img/normalforms2.jpg)
+>![!](/assets/img/normalforms2.JPG)
 >Before
->![!](/assets/img/3nf1.jpg)
->![!](/assets/img/3nf2.jpg)
+>![!](/assets/img/3nf1.JPG)
+>![!](/assets/img/3nf2.JPG)
 > ___
 > ### __Diagrammatic Representation__
->![!](/assets/img/summary.jpg)
+>![!](/assets/img/summary.JPG)
 >___
 > ### __Guidelines__
 >Depending on the business requirements, the tables can be normalized up to 2nd normal form or 3rd normal form

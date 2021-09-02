@@ -40,8 +40,8 @@
 >![!](/assets/img/cardinality-m-to-n.png)
 >In M : N relationships, the relationship is represented by a completely new table that has a composite primary key. Such a structure requires two foreign keys on the new table linking to the primary keys of each of the parent tables. The attribute of the relationship resides on this new table.
 > ### __QUIZ__
->![!](/assets/img/qr1.png)
->![!](/assets/img/qr23.png)
+>![!](/assets/img/qr1.PNG)
+>![!](/assets/img/qr23.PNG)
 
 
 
