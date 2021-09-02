@@ -1,0 +1,7 @@
+## **Types of database systems**
+> Database systems are categorized into four types based upon the underlying structure used to store data. These database systems in chronological order of their evolution are **Hierarchical**, **Network**, **Relational** and **NoSql**. We will now get a brief overview of these database management systems.
+>- **Hierarchical:** Organize data into a tree-like structure. Data is stored as records which are connected to one another through parent child relationships. Some examples of Hierarchical Databases are Information Management System (IMS), Raima Database Manager (RDM) Mobile etc.
+>- **Network:** Organize data into a graph structure in which object types are nodes and relationship types are arcs. Each record can have multiple parent and child records. Some examples of Network Databases are Integrated Database Management System (IDMS), Integrated Data Store (IDS) etc.
+>- **Relational Databases:** Organizes data into one or more tables. A table consists of attributes (columns), tuples (rows) and provides a way to uniquely identify each tuple. Tables are related to each other through parent child relationships. Some examples of Relational Databases are DB2, Oracle, SQL Server etc.
+>- **NoSQL:** Uses __key-value__, __graph__ or __document__ data structures to store data. These databases aim for simplicity of design, horizontal scaling and finer control over availability. Some examples on No Sql databases are Cassandra, MongoDB, CouchDB, OrientDB, HBASE etc.
+***
